@@ -1,0 +1,6 @@
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.dll
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.pdb
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.AssemblyReference.cache
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
+D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0A8FE8D5-23DA-474B-AB93-9605EAEC63AF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Minimarket</RootNamespace>
+    <AssemblyName>Minimarket</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REG_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REG_Categoria.Designer.cs">
+      <DependentUpon>REG_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REG_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REG_Cliente.Designer.cs">
+      <DependentUpon>REG_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REG_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REG_Producto.Designer.cs">
+      <DependentUpon>REG_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="REG_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="REG_Proveedor.Designer.cs">
+      <DependentUpon>REG_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPD_Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPD_Categoria.Designer.cs">
+      <DependentUpon>UPD_Categoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPD_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPD_Cliente.Designer.cs">
+      <DependentUpon>UPD_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPD_Marketin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPD_Marketin.Designer.cs">
+      <DependentUpon>UPD_Marketin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPD_Producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPD_Producto.Designer.cs">
+      <DependentUpon>UPD_Producto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPD_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPD_Proveedor.Designer.cs">
+      <DependentUpon>UPD_Proveedor.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="REG_Categoria.resx">
+      <DependentUpon>REG_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REG_Cliente.resx">
+      <DependentUpon>REG_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REG_Producto.resx">
+      <DependentUpon>REG_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="REG_Proveedor.resx">
+      <DependentUpon>REG_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPD_Categoria.resx">
+      <DependentUpon>UPD_Categoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPD_Cliente.resx">
+      <DependentUpon>UPD_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPD_Marketin.resx">
+      <DependentUpon>UPD_Marketin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPD_Producto.resx">
+      <DependentUpon>UPD_Producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPD_Proveedor.resx">
+      <DependentUpon>UPD_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\CL_CapaEntidades.Categoria.datasource" />
+    <None Include="Properties\DataSources\CL_CapaEntidades.Cliente.datasource" />
+    <None Include="Properties\DataSources\CL_CapaEntidades.Market.datasource" />
+    <None Include="Properties\DataSources\CL_CapaEntidades.Proveedor.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CL_CapaEntidades\CL_CapaEntidades.csproj">
+      <Project>{3af461be-8e82-48bb-95fa-df4460404fa7}</Project>
+      <Name>CL_CapaEntidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CL_CapaNegocio\CL_CapaNegocio.csproj">
+      <Project>{3bbb1d82-cfea-40bf-8e70-049913ed5049}</Project>
+      <Name>CL_CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
