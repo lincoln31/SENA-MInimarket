@@ -86,5 +86,24 @@ namespace Minimarket
             ObjFRM.WindowState = FormWindowState.Maximized;
 
         }
+
+        private void rEGISTRARToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            REG_Producto ObjFRM = new REG_Producto();
+            ObjFRM.MdiParent = this;
+            ObjFRM.Show();
+            ObjFRM.WindowState = FormWindowState.Maximized;
+
+        }
+
+        private void cONSULTARToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            UPD_Proveedor ObjFRM = new UPD_Proveedor();
+            ObjFRM.MdiParent = this;
+            ObjFRM.Show();
+            ObjFRM.WindowState = FormWindowState.Maximized;
+
+
+        }
     }
 }

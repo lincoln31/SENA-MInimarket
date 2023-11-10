@@ -42,6 +42,8 @@
             this.categoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.cONSULTARToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.rEGISTRARToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.cONSULTARToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,6 +68,9 @@
             // 
             // productoToolStripMenuItem
             // 
+            this.productoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rEGISTRARToolStripMenuItem3,
+            this.cONSULTARToolStripMenuItem3});
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
             resources.ApplyResources(this.productoToolStripMenuItem, "productoToolStripMenuItem");
             // 
@@ -134,6 +139,18 @@
             resources.ApplyResources(this.cONSULTARToolStripMenuItem2, "cONSULTARToolStripMenuItem2");
             this.cONSULTARToolStripMenuItem2.Click += new System.EventHandler(this.cONSULTARToolStripMenuItem2_Click);
             // 
+            // rEGISTRARToolStripMenuItem3
+            // 
+            this.rEGISTRARToolStripMenuItem3.Name = "rEGISTRARToolStripMenuItem3";
+            resources.ApplyResources(this.rEGISTRARToolStripMenuItem3, "rEGISTRARToolStripMenuItem3");
+            this.rEGISTRARToolStripMenuItem3.Click += new System.EventHandler(this.rEGISTRARToolStripMenuItem3_Click);
+            // 
+            // cONSULTARToolStripMenuItem3
+            // 
+            this.cONSULTARToolStripMenuItem3.Name = "cONSULTARToolStripMenuItem3";
+            resources.ApplyResources(this.cONSULTARToolStripMenuItem3, "cONSULTARToolStripMenuItem3");
+            this.cONSULTARToolStripMenuItem3.Click += new System.EventHandler(this.cONSULTARToolStripMenuItem3_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -165,6 +182,8 @@
         private System.Windows.Forms.ToolStripMenuItem categoriaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registrarToolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem cONSULTARToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem rEGISTRARToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem cONSULTARToolStripMenuItem3;
     }
 }
 
