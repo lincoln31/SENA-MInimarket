@@ -21,7 +21,8 @@ namespace CL_CapaDatos
             strSQL +=  objProducto.pvp + ",";
             strSQL += "'" + objProducto.descripcion + "',";
             strSQL += "'" + objProducto.unidadMedida + "',";
-            strSQL +=  objProducto.idCategoria + ");";
+            int idCategoria = int.Parse(objProducto.idCategoria);
+            strSQL +=  idCategoria + ");";
 
             return RealizarTransaccion(strSQL);
         }
@@ -30,7 +31,9 @@ namespace CL_CapaDatos
         {
             DataTable dt = new DataTable();
 
-            string strSQL = "SELECT * FROM producto;";
+            string strSQL = "SELECT p.nombre,  p.marca, p.stock, p.pvp, p.descripcion, p.unidadMedida, c.nombre AS NombreCategoria " +
+                "FROM producto p  " +
+                "JOIN categoria c ON p.idCategoria = c.idCategoria;";
 
             return consultarDatos(strSQL);
 

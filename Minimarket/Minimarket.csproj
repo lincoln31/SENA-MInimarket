@@ -150,6 +150,7 @@
     <None Include="Properties\DataSources\CL_CapaEntidades.Categoria.datasource" />
     <None Include="Properties\DataSources\CL_CapaEntidades.Cliente.datasource" />
     <None Include="Properties\DataSources\CL_CapaEntidades.Market.datasource" />
+    <None Include="Properties\DataSources\CL_CapaEntidades.Producto.datasource" />
     <None Include="Properties\DataSources\CL_CapaEntidades.Proveedor.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

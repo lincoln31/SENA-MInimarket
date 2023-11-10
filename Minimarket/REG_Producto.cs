@@ -73,7 +73,7 @@ namespace Minimarket
             objproducto.pvp= int.Parse(textBox_PVP.Text);
             objproducto.descripcion =textBox_DESCRIPCION.Text.Trim();
             objproducto.unidadMedida = textBox_UDM.SelectedItem.ToString();
-            objproducto.idCategoria= (int)comboBox_CATEGORIA.SelectedValue;
+            objproducto.idCategoria= comboBox_CATEGORIA.SelectedValue.ToString();
 
             if (CN_PRODUCTO.insertarProducto(objproducto))
             {

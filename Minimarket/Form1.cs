@@ -98,7 +98,7 @@ namespace Minimarket
 
         private void cONSULTARToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            UPD_Proveedor ObjFRM = new UPD_Proveedor();
+            UPD_Producto ObjFRM = new UPD_Producto();
             ObjFRM.MdiParent = this;
             ObjFRM.Show();
             ObjFRM.WindowState = FormWindowState.Maximized;

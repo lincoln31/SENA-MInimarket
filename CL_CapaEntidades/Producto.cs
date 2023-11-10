@@ -15,8 +15,8 @@ namespace CL_CapaEntidades
 
         public int pvp { get; set; }
         public string descripcion { get; set; }
-        public string unidadMedida { get; set; }
-        public int idCategoria { get; set; }
-        
+        public string unidadMedida { get; set; }        
+        public string idCategoria { get; set; }
+
     }
 }
