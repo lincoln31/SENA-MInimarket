@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CL_CapaNegocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,15 @@ namespace Minimarket
         public UPD_Producto()
         {
             InitializeComponent();
+        }
+
+        private void Consultar_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Visible = true;
+            DataTable dataTable = new DataTable();
+            dataTable = CN_PRODUCTO.consultarProducto();
+
+            dataGridView1.DataSource = dataTable;
         }
     }
 }

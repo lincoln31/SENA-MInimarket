@@ -122,49 +122,49 @@
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="miniMarketToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 20</value>
+    <value>102, 24</value>
   </data>
   <data name="miniMarketToolStripMenuItem.Text" xml:space="preserve">
     <value>Mini Market</value>
   </data>
+  <data name="rEGISTRARToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="rEGISTRARToolStripMenuItem3.Text" xml:space="preserve">
+    <value>REGISTRAR</value>
+  </data>
+  <data name="cONSULTARToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="cONSULTARToolStripMenuItem3.Text" xml:space="preserve">
+    <value>CONSULTAR</value>
+  </data>
   <data name="productoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
+    <value>83, 24</value>
   </data>
   <data name="productoToolStripMenuItem.Text" xml:space="preserve">
     <value>Producto</value>
   </data>
   <data name="proveToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 20</value>
+    <value>91, 24</value>
   </data>
   <data name="proveToolStripMenuItem.Text" xml:space="preserve">
     <value>Proveedor</value>
   </data>
   <data name="clienteToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
+    <value>69, 24</value>
   </data>
   <data name="clienteToolStripMenuItem.Text" xml:space="preserve">
     <value>Cliente</value>
   </data>
   <data name="empleadoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 20</value>
+    <value>95, 24</value>
   </data>
   <data name="empleadoToolStripMenuItem.Text" xml:space="preserve">
     <value>Empleado </value>
   </data>
-  <data name="registrarToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="registrarToolStripMenuItem2.Text" xml:space="preserve">
-    <value>REGISTRAR</value>
-  </data>
-  <data name="cONSULTARToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="cONSULTARToolStripMenuItem2.Text" xml:space="preserve">
-    <value>CONSULTAR</value>
-  </data>
   <data name="categoriaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
+    <value>88, 24</value>
   </data>
   <data name="categoriaToolStripMenuItem.Text" xml:space="preserve">
     <value>Categoria</value>
@@ -174,10 +174,10 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 0, 2</value>
+    <value>5, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1155, 24</value>
+    <value>1540, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -199,40 +199,52 @@
     <value>0</value>
   </data>
   <data name="rEGISTRARToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>224, 26</value>
   </data>
   <data name="rEGISTRARToolStripMenuItem.Text" xml:space="preserve">
     <value>REGISTRAR</value>
   </data>
   <data name="cONSULTARToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>139, 22</value>
+    <value>224, 26</value>
   </data>
   <data name="cONSULTARToolStripMenuItem.Text" xml:space="preserve">
     <value>CONSULTAR</value>
   </data>
   <data name="rEGISTRARToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>224, 26</value>
   </data>
   <data name="rEGISTRARToolStripMenuItem1.Text" xml:space="preserve">
     <value>REGISTRAR</value>
   </data>
   <data name="cONSULTARToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>224, 26</value>
   </data>
   <data name="cONSULTARToolStripMenuItem1.Text" xml:space="preserve">
+    <value>CONSULTAR</value>
+  </data>
+  <data name="registrarToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="registrarToolStripMenuItem2.Text" xml:space="preserve">
+    <value>REGISTRAR</value>
+  </data>
+  <data name="cONSULTARToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 26</value>
+  </data>
+  <data name="cONSULTARToolStripMenuItem2.Text" xml:space="preserve">
     <value>CONSULTAR</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1155, 660</value>
+    <value>1540, 812</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
@@ -307,6 +319,18 @@
     <value>cONSULTARToolStripMenuItem2</value>
   </data>
   <data name="&gt;&gt;cONSULTARToolStripMenuItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rEGISTRARToolStripMenuItem3.Name" xml:space="preserve">
+    <value>rEGISTRARToolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;rEGISTRARToolStripMenuItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cONSULTARToolStripMenuItem3.Name" xml:space="preserve">
+    <value>cONSULTARToolStripMenuItem3</value>
+  </data>
+  <data name="&gt;&gt;cONSULTARToolStripMenuItem3.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

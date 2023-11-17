@@ -11,42 +11,56 @@ namespace CL_CapaDatos
     public class DA_PRODUCTO:DA_BASE
     {
 
-        public static bool insertarCliente(Cliente objCliente)
+        public static bool insertarProducto(Producto objProducto)
         {
-            string strSQL = "INSERT INTO cliente " +
-                "(tipoDoc,  identificacion,nombres,apellidos,correo,celular) values(";
-            strSQL += "'" + objCliente.tipoDoc + "',";
-            strSQL += "'" + objCliente.identificacion + "',";
-            strSQL += "'" + objCliente.nombres + "',";
-            strSQL += "'" + objCliente.apellidos + "',";
-            strSQL += "'" + objCliente.correo + "',";
-            strSQL += "'" + objCliente.celular + "');";
+            string strSQL = "INSERT INTO producto " +
+                "(nombre, marca,stock,pvp,descripcion,unidadMedida,idCategoria) values(";
+            strSQL += "'" + objProducto.nombre + "',";
+            strSQL += "'" + objProducto.marca + "',";
+            strSQL +=  objProducto.stock + ",";
+            strSQL +=  objProducto.pvp + ",";
+            strSQL += "'" + objProducto.descripcion + "',";
+            strSQL += "'" + objProducto.unidadMedida + "',";
+            int idCategoria = int.Parse(objProducto.idCategoria);
+            strSQL +=  idCategoria + ");";
 
             return RealizarTransaccion(strSQL);
         }
 
-        public static DataTable consultarCliente()
+        public static DataTable consultarProducto()
         {
             DataTable dt = new DataTable();
 
-            string strSQL = "SELECT * FROM cliente;";
+            string strSQL = "SELECT p.nombre,  p.marca, p.stock, p.pvp, p.descripcion, p.unidadMedida, c.nombre AS NombreCategoria " +
+                "FROM producto p  " +
+                "JOIN categoria c ON p.idCategoria = c.idCategoria;";
 
             return consultarDatos(strSQL);
 
         }
-        public static bool actualizarCliente(Cliente objCliente)
+        //public static bool actualizarProducto(Producto objProducto)
+        //{
+        //    string strSQL = "UPDATE producto SET ";
+
+        //    strSQL += "tipoDoc = '" + objCliente.tipoDoc + "',";
+        //    strSQL += "nombres = '" + objCliente.nombres + "',";
+        //    strSQL += "apellidos = '" + objCliente.apellidos + "',";
+        //    strSQL += "correo = '" + objCliente.correo + "',";
+        //    strSQL += "celular = '" + objCliente.celular + "' ";
+
+        //    strSQL += " WHERE identificacion = '" + objCliente.identificacion + "';";
+
+        //    return RealizarTransaccion(strSQL);
+        //}
+        public static DataTable poblarComboBox()
         {
-            string strSQL = "UPDATE cliente SET ";
 
-            strSQL += "tipoDoc = '" + objCliente.tipoDoc + "',";
-            strSQL += "nombres = '" + objCliente.nombres + "',";
-            strSQL += "apellidos = '" + objCliente.apellidos + "',";
-            strSQL += "correo = '" + objCliente.correo + "',";
-            strSQL += "celular = '" + objCliente.celular + "' ";
+            DataTable dt = new DataTable();
 
-            strSQL += " WHERE identificacion = '" + objCliente.identificacion + "';";
+            string strSQL = "SELECT  idCategoria  , nombre FROM categoria;";
 
-            return RealizarTransaccion(strSQL);
+            return consultarDatos(strSQL);
+
         }
 
 

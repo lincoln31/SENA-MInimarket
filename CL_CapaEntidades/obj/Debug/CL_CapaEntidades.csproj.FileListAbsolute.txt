@@ -4,3 +4,9 @@ D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEnti
 D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
 D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
 D:\Users\Usuario\Desktop\.NET2\Minimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.dll
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\bin\Debug\CL_CapaEntidades.pdb
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.dll
+C:\Users\Usuario\OneDrive\Escritorio\m\SENA-MInimarket\CL_CapaEntidades\obj\Debug\CL_CapaEntidades.pdb
